@@ -40,7 +40,7 @@ class B:
     def __repr__(self):
         return f'<Объект класса B со значением b = {self.b}>'
 
-    def __sub__(self, other):
+    def __sub__(self, other): # Вычитание
         return B(self.b - other.b)
 
 
